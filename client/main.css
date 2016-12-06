@@ -1,15 +1,11 @@
-body, #app, #app>div {
+#app, #app>div {
     height: 100%;
 }
 
 .navigation-bar {
     background-color: white;
-    height: 56px;
     width: 100%;
-}
-
-.navigation-bar .grid {
-    height: 70px;
+    position: fixed;
 }
 
 .home {

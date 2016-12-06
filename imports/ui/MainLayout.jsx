@@ -7,6 +7,7 @@ import Home from './Home'
 import Projects from './Projects'
 import About from './About'
 import Contact from './Contact'
+import {Container} from 'semantic-ui-react'
 
 // MainLayout - site layout
 export default class MainLayout extends Component {
@@ -15,11 +16,13 @@ export default class MainLayout extends Component {
 
         return (
             <div>
-                <NavigationBar/>
+                    <NavigationBar/>
                 <Home/>
-                <Projects/>
-                <About/>
-                <Contact/>
+                <Container>
+                    <Projects/>
+                    <About/>
+                    <Contact/>
+                </Container>
             </div>
         )
 
