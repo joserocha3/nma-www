@@ -16,7 +16,7 @@ export default class MainLayout extends Component {
 
         return (
             <div>
-                    <NavigationBar/>
+                <NavigationBar/>
                 <Home/>
                 <Container>
                     <Projects/>
