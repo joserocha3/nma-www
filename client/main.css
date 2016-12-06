@@ -1,0 +1,22 @@
+body, #app, #app>div {
+    height: 100%;
+}
+
+.navigation-bar {
+    background-color: white;
+    height: 56px;
+    width: 100%;
+}
+
+.navigation-bar .grid {
+    height: 70px;
+}
+
+.home {
+    height: 100%;
+    background-color: #451f49;
+}
+
+.home .grid {
+    height: 100%;
+}
