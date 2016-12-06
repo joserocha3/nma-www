@@ -25,7 +25,7 @@ export default class NavigationBar extends Component {
                 <Container>
                     <Grid verticalAlign='middle' columns={2} padded>
                         <Grid.Row stretched>
-                            <Grid.Column>NoMoreAnalog</Grid.Column>
+                            <Grid.Column style={{marginTop: 14}}>NoMoreAnalog</Grid.Column>
                             <Grid.Column>
                                 <Menu floated='right' size='large' secondary pointing>
                                     <Menu.Item href='#home' name='home' active={activeItem === 'home'} onClick={this._handleItemClick}/>
