@@ -73,16 +73,13 @@ hr {
 /* Header Wrap */
 
 #headerwrap {
-    margin-top: -10px;
-    padding-top: 20px;
     text-align: center;
     background: /* top, transparent red */ linear-gradient(
             rgba(30, 20, 42, .6),
             rgba(30, 20, 42, 1)
     ),
-        /* bottom, image */ url(../img/header-bg.png);
-
-    min-height: 700px;
+    url(../img/header-bg.png);
+    min-height: 650px;
     width: 100%;
 
     -webkit-background-size: 100%;
@@ -99,13 +96,13 @@ hr {
 #headerwrap h1 {
     margin-top: 150px;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 #headerwrap h3 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
     font-family: 'Roboto', san-serif;
     font-style: oblique;
@@ -117,38 +114,49 @@ hr {
     margin-top: 15px;
 }
 
-/* Footer Wrap */
+/* Sections */
 
-#f {
+section {
     background: #1e142a;
-    padding-top: 70px;
     padding-bottom: 70px;
     text-align: center
 }
 
-#f h3 {
+section h3 {
     color: white;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-#f i {
+section i.icon-circle {
     font-size: 8px;
     color: #fff;
     padding: 3px;
 }
 
-#f p {
+section i.icon-facebook {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+section i.icon-mobile-phone {
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+}
+
+section p {
     font-size: 18px;
     color: #f2f2f2;
 }
 
-#f img {
+section img {
     text-align: center;
 }
 
-/* FORM*/
+/* FORM */
 
 .has-error {
     background-color: #e37174;
@@ -159,7 +167,7 @@ hr {
     color: white;
 }
 
-/* MENU CONF*/
+/* Navigation */
 
 .menu {
     position: fixed;
@@ -196,7 +204,7 @@ hr {
 }
 
 .menu h1.logo a:hover {
-    color: #e31e24;
+    color: #f0ad4e;
 }
 
 .menu img.logo {
@@ -232,6 +240,10 @@ hr {
     font-size: 14px;
     line-height: 40px;
     margin: 25px 2px;
+}
+
+.menu a > i.icon-mobile-phone {
+    font-size: 18px;
 }
 
 .menu-close {

@@ -12,7 +12,6 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/material-icons.min.css">
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -36,14 +35,15 @@
 <!-- Menu -->
 <nav class="menu" id="theMenu">
     <div class="menu-wrap">
-        <h1 class="logo"><a href="index.html#home" data-scrollto="home">NoMoreAnalog</a></h1>
         <i class="icon-remove menu-close"></i>
+        <br>
+        <h1 class="logo"><a href="index.html#home" data-scrollto="home">NoMoreAnalog</a></h1>
         <a data-scroll href="#home" data-scrollto="home" onclick="closeMenu()">Home</a>
         <a data-scroll href="#about" data-scrollto="about" onclick="closeMenu()">About</a>
         <a data-scroll href="#portfolio" data-scrollto="portfolio" onclick="closeMenu()">Portfolio</a>
         <a data-scroll href="#contact" data-scrollto="contact" onclick="closeMenu()">Contact</a>
         <a href="https://www.facebook.com/No-More-Analog-1166563556703557" target="_blank"><i class="icon-facebook"></i></a>
-        <a href="https://play.google.com/store/apps/developer?id=NoMoreAnalog" target="_blank"><i class="material-icons">phone_android</i></a>
+        <a href="https://play.google.com/store/apps/developer?id=NoMoreAnalog" target="_blank"><i class="icon-mobile-phone"></i></a>
     </div>
 
     <!-- Menu button -->
@@ -73,104 +73,101 @@
 
 <!-- ========== ABOUT SECTION ========== -->
 <section id="about" name="about">
-    <div id="f">
-        <div class="container">
-            <div class="row">
-                <h3>ABOUT US</h3>
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+    <div class="container">
+        <div class="row">
+            <h3>ABOUT US</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-                <!-- INTRO INFORMATIO-->
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p>A small software company focused on providing elegant solutions.</p>
-                    <p>Our passion is working closely with customers to quickly determine and fulfill their needs.</p>
-                    <p>We are available to tailor-make your next mobile or web application. Contact us now.</p>
-                    <p>
-                        <a href="#contact" data-scrollto="contact">
-                            <button type="button" class="btn btn-warning">BUILD MY APPLICATION</button>
-                        </a>
-                    </p>
-                </div>
+            <!-- INTRO INFORMATIO-->
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>A small software company focused on providing elegant solutions.</p>
+                <p>Our passion is working closely with customers to quickly determine and fulfill their needs.</p>
+                <p>We are available to tailor-make your next mobile or web application. Contact us now.</p>
+                <p>
+                    <a href="#contact" data-scrollto="contact">
+                        <button type="button" class="btn btn-warning">BUILD MY APPLICATION</button>
+                    </a>
+                </p>
             </div>
-        </div><!-- /container -->
-    </div><!-- /f -->
+        </div>
+    </div><!-- /container -->
 </section>
 
 <!-- ========== CAROUSEL SECTION ========== -->
 <section id="portfolio" name="portfolio">
-    <div id="f">
-        <div class="container">
-            <div class="row centered">
-                <h3>SOME PROJECTS</h3>
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+    <div class="container">
+        <div class="row centered">
+            <h3>SOME PROJECTS</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-                <div class="col-lg-6 col-lg-offset-3">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active centered">
-                                <a href="https://play.google.com/store/apps/details?id=com.nomoreanalog.worldofwords" target="_blank">
-                                    <img class="img-responsive" src="assets/img/c1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item centered">
-                                <a href="http://data.arabknowledgeportal.org/en/chart" target="_blank">
-                                    <img class="img-responsive" src="assets/img/c2.png" alt="">
-                                </a>
-                            </div>
+            <div class="col-lg-6 col-lg-offset-3">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active centered">
+                            <a href="https://play.google.com/store/apps/details?id=com.nomoreanalog.worldofwords" target="_blank">
+                                <img class="img-responsive" src="assets/img/c1.png" alt="">
+                            </a>
                         </div>
-                        <br>
-                        <br>
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        </ol>
+                        <div class="item centered">
+                            <a href="http://data.arabknowledgeportal.org/en/chart" target="_blank">
+                                <img class="img-responsive" src="assets/img/c2.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div><!-- col-lg-8 -->
-            </div><!-- row -->
-        </div><!-- container -->
-    </div>    <!-- f -->
+                    <br>
+                    <br>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    </ol>
+                </div>
+            </div><!-- col-lg-8 -->
+        </div><!-- row -->
+    </div><!-- container -->
 </section>
 
 <!-- ========== CONTACT SECTION ========== -->
 <section id="contact" name="contact">
-    <div id="f">
-        <div class="container">
-            <div class="row">
-                <h3>CONTACT US</h3>
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+    <div class="container">
+        <div class="row">
+            <h3>CONTACT US</h3>
+            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-                <div class="col-lg-6 col-lg-offset-3">
-                    <form class="p-30 bg-gray rounded" action="https://formspree.io/contact@nomoreanalog.com" method="POST">
+            <div class="col-lg-6 col-lg-offset-3">
+                <form class="p-30 bg-gray rounded" action="https://formspree.io/contact@nomoreanalog.com" method="POST">
 
-                        <!--<div class="alert alert-success">We received your message and will contact you back soon.</div>-->
+                    <!--<div class="alert alert-success">We received your message and will contact you back soon.</div>-->
 
-                        <div class="row">
-                            <div class="form-group col-12 col-md-6">
-                                <input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name">
-                            </div>
-
-                            <div class="form-group col-12 col-md-6">
-                                <input class="form-control form-control-lg" type="email" name="_replyto" placeholder="Your Email Address">
-                            </div>
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6">
+                            <input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name">
                         </div>
 
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg" rows="4" placeholder="Your Message" name="message"></textarea>
+                        <div class="form-group col-12 col-md-6">
+                            <input class="form-control form-control-lg" type="email" name="_replyto" placeholder="Your Email Address">
                         </div>
+                    </div>
 
-                        <input type="hidden" name="_next" value="#contact" />
-                        <input type="hidden" name="_subject" value="Email from NoMoreAnalog Landing Page" />
+                    <div class="form-group">
+                        <textarea class="form-control form-control-lg" rows="4" placeholder="Your Message" name="message"></textarea>
+                    </div>
 
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-warning">YEAH! CONTACT US NOW!</button>
-                        </div>
+                    <input type="hidden" name="_next" value="#contact"/>
+                    <input type="hidden" name="_subject" value="Email from NoMoreAnalog Landing Page"/>
 
-                    </form>
-                    <br>
-                    <p><a href="mailto:contact@nomoreanalog.com">contact@nomoreanalog.com</a></p>
-                </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-warning">YEAH! CONTACT US NOW!</button>
+                    </div>
 
+                </form>
+                <br>
+                <p><a href="mailto:contact@nomoreanalog.com">contact@nomoreanalog.com</a></p>
             </div>
+
+            <a href="https://www.facebook.com/No-More-Analog-1166563556703557" target="_blank"><i class="icon-facebook"></i></a>
+            <a href="https://play.google.com/store/apps/developer?id=NoMoreAnalog" target="_blank"><i class="icon-mobile-phone"></i></a>
+
         </div>
     </div>
 </section>
