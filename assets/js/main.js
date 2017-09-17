@@ -15,3 +15,11 @@ function closeMenu() {
 }
 
 var scroll = new SmoothScroll('a[href*="#"]');
+
+if (window.location.search.indexOf('email-sent=yes') > -1) {
+    classie.toggleClass(document.getElementById('email-alert'), 'hide');
+    classie.addClass(document.getElementById('email-alert'), 'show');
+} else {
+    classie.removeClass(document.getElementById('email-alert'), 'show');
+    classie.addClass(document.getElementById('email-alert'), 'hide');
+}
