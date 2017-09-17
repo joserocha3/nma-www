@@ -118,8 +118,12 @@ hr {
 
 section {
     background: #1e142a;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
     text-align: center
+}
+
+section#contact {
+    padding-bottom: 50px;
 }
 
 section h3 {
@@ -130,13 +134,13 @@ section h3 {
 }
 
 section i.icon-circle {
-    font-size: 8px;
+    font-size: 6px;
     color: #fff;
     padding: 3px;
 }
 
 section i.icon-facebook {
-    font-size: 20px;
+    font-size: 19px;
     color: #fff;
     padding: 10px;
 }
@@ -193,14 +197,14 @@ section img {
 }
 
 .menu h1.logo a {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.15em;
     line-height: 40px;
-    text-transform: uppercase;
     color: #ffffff;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .menu h1.logo a:hover {
