@@ -1,4 +1,5 @@
-# 1 Week for most static assets
-<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+# Not used on github pages, github sets a default of 10 minutes
+# 1 week for most static assets, use 86400 for 1 day
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|woff)$">
 Header set Cache-Control "max-age=604800, public"
 </filesMatch>
