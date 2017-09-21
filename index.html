@@ -8,26 +8,25 @@
 
     <title>NoMoreAnalog</title>
 
-    <!-- Styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/modernizr.custom.js"></script>
-
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.png">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        body {
+            background-color: #1e142a;
+        }
+        #about, #contact, #portfolio, #footer {
+            display: none;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -156,7 +155,7 @@
 </section>
 
 <!-- ========== FOOTER ========== -->
-<footer class="footer">
+<footer class="footer" id="footer">
     <div class="container">
         <div class="row gap-y align-items-center">
 
@@ -186,9 +185,19 @@
     </div>
 </footer>
 
+<!-- Styles
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 <!-- JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/modernizr.custom.js"></script>
 <script src="assets/js/classie.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/smooth-scroll.min.js"></script>

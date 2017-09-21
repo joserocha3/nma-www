@@ -9,6 +9,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+/* Stop above the fold blocking */
+
+#about, #contact, #portfolio, #footer {
+    display: inherit;
+}
+
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
