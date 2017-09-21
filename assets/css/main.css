@@ -11,7 +11,7 @@ body {
 
 /* Stop above the fold blocking */
 
-#about, #contact, #portfolio, #footer {
+#theMenu, #home, #about, #contact, #portfolio, #footer {
     display: inherit;
 }
 
