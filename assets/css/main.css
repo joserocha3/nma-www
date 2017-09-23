@@ -370,8 +370,8 @@ section img {
 }
 
 .footer .nav .nav-item {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
