@@ -7,6 +7,16 @@
         $('#theMenu').toggleClass('menu-open');
     });
 
+    // Carousel settings
+    $('.carousel').swiperight(function () {
+        $(this).carousel('prev');
+    });
+    $('.carousel').swipeleft(function () {
+        $(this).carousel('next');
+    });
+    $('.carousel').carousel({
+        interval: 6000
+    })
 
 })(jQuery)
 
