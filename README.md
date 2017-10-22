@@ -1,10 +1,9 @@
-# nomoreanalog
-Web page for NoMoreAnalog.
+# nma-www
+Web page for NoMoreAnalog root domain.
 
-This page is hosted at wordtraveler.nomoreanalog.com via Firebase.
+This page is hosted at www.nomoreanalog.com via Firebase.
 
-Google Cloud project ID: nma-redirects-113922
-Appspot URL: nma-redirects-113922.appspot.com
+Google Cloud project ID: nma-www
 
 ### Firebase setup
 `npm install -g firebase-tools`
