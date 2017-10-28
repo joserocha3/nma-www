@@ -1,13 +1,12 @@
 @font-face {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Roboto'), local('Roboto-Regular'), url('../font/Roboto.woff2') format('woff2');
+    font-family: 'Roboto';
+    src: url('../font/Roboto.woff2') format('woff2'),
+         url('../font/Roboto.ttf') format('truetype');
 }
 
 body {
     background-color: #1e142a;
-    font-family: 'Roboto', san-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -25,7 +24,6 @@ body {
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', san-serif;
     font-weight: 300;
     color: #333;
 }
@@ -113,7 +111,6 @@ hr {
     color: white;
     font-size: 25px;
     font-weight: 100;
-    font-family: 'Roboto', san-serif;
     font-style: oblique;
 }
 
@@ -198,7 +195,6 @@ section img {
 }
 
 .menu h1.logo a {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.15em;
