@@ -423,7 +423,7 @@ section img {
 
 /* Ensure carousel images have consistent dimensions */
 #carousel-example-generic .carousel-inner .item {
-    height: 350px; /* Fixed height for each slide */
+    height: 250px; /* Fixed height for each slide */
 }
 
 #carousel-example-generic .carousel-inner a {
