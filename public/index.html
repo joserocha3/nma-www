@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We love to make cool apps and websites. We design and build software to meet your needs. Learn more now!">
-    <meta name="theme-color" content="#1e142a"/>
+    <meta name="description"
+        content="We love to make cool apps and websites. We design and build software to meet your needs. Learn more now!">
+    <meta name="theme-color" content="#1e142a" />
 
     <title>Cool Apps and Websites | Software Design and Build | NoMoreAnalog</title>
 
@@ -32,191 +34,207 @@
 
 <body>
 
-<!-- Menu -->
-<nav class="menu" id="theMenu">
-    <div class="menu-wrap">
-        <i class="icon-remove menu-close"></i>
-        <h1 class="logo"><a href="#home" data-scrollto="home">NoMoreAnalog</a></h1>
-        <a data-scroll href="#home" data-scrollto="home" onclick="closeMenu()">Home</a>
-        <a data-scroll href="#about" data-scrollto="about" onclick="closeMenu()">About</a>
-        <a data-scroll href="#portfolio" data-scrollto="portfolio" onclick="closeMenu()">Portfolio</a>
-        <a data-scroll href="#contact" data-scrollto="contact" onclick="closeMenu()">Contact</a>
-        <a href="https://fb.me/nomoreanalogtech" target="_blank"><i class="icon-facebook-sign"></i></a>
-        <a href="https://play.google.com/store/apps/developer?id=NoMoreAnalog" target="_blank"><i class="icon-mobile-phone"></i></a>
-    </div>
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <i class="icon-remove menu-close"></i>
+            <h1 class="logo"><a href="#home" data-scrollto="home">NoMoreAnalog</a></h1>
+            <a data-scroll href="#home" data-scrollto="home" onclick="closeMenu()">Home</a>
+            <a data-scroll href="#about" data-scrollto="about" onclick="closeMenu()">About</a>
+            <a data-scroll href="#portfolio" data-scrollto="portfolio" onclick="closeMenu()">Portfolio</a>
+            <a data-scroll href="#contact" data-scrollto="contact" onclick="closeMenu()">Contact</a>
+            <a href="https://fb.me/nomoreanalogtech" target="_blank"><i class="icon-facebook-sign"></i></a>
+            <a href="https://play.google.com/store/apps/developer?id=NoMoreAnalog" target="_blank"><i
+                    class="icon-mobile-phone"></i></a>
+        </div>
 
-    <!-- Menu button -->
-    <div id="menuToggle"><i class="icon-reorder"></i></div>
-</nav>
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="icon-reorder"></i></div>
+    </nav>
 
-<!-- ========== HEADER SECTION ========== -->
-<section id="home" name="home">
-    <div id="headerwrap">
+    <!-- ========== HEADER SECTION ========== -->
+    <section id="home" name="home">
+        <div id="headerwrap">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/img/logo.svg" alt="logo">
+                </div>
+                <div class="row">
+                    <h1>NoMoreAnalog</h1>
+                    <br>
+                    <h2>Hello, we love to make cool apps and websites.</h2>
+                    <div class="col-lg-6 col-lg-offset-3" />
+                </div>
+            </div><!-- /container -->
+        </div><!-- /headerwrap -->
+    </section>
+
+    <!-- ========== CAROUSEL SECTION ========== -->
+    <section id="portfolio" name="portfolio">
         <div class="container">
-            <div class="logo">
-                <img src="assets/img/logo.svg" alt="logo">
-            </div>
+            <div class="row centered">
+                <h2>SOME PROJECTS</h2>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+                <div class="col-lg-6 col-lg-offset-3">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active centered">
+                                <p>Mobile word game designed with an attractive UI and intuitive gameplay.</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.nomoreanalog.worldofwords"
+                                    target="_blank">
+                                    <img class="img-responsive" src="assets/img/c1.png" alt="Mobile Game">
+                                </a>
+                            </div>
+                            <div class="item centered">
+                                <p>Website featuring SVG visualizations powered by a web-based admin console.</p>
+                                <a href="https://uncharted-d3.herokuapp.com" target="_blank">
+                                    <img class="img-responsive" src="assets/img/c2.png" alt="D3 Website">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div><!-- col-lg-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" name="about">
+        <div class="container">
             <div class="row">
-                <h1>NoMoreAnalog</h1>
-                <br>
-                <h2>Hello, we love to make cool apps and websites.</h2>
-                <div class="col-lg-6 col-lg-offset-3"/>
+                <h2>ABOUT US</h2>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+                <!-- INTRO INFORMATION-->
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p>A software company focused on providing elegant solutions. We are proud to have website, design,
+                        mobile and SEO experience.</p>
+                    <p>Our passion is working closely with customers to quickly determine and fulfill their needs.
+                        Modern features will stand out in the software we produce for you.</p>
+                    <p>We are available to custom build your next mobile application, web-based software or website
+                        design.</p>
+                    <p>
+                        <a href="#contact" data-scrollto="contact">
+                            <button type="button" class="btn btn-warning">BUILD MY WEBSITE OR APP</button>
+                        </a>
+                    </p>
+                </div>
             </div>
         </div><!-- /container -->
-    </div><!-- /headerwrap -->
-</section>
+    </section>
 
-<!-- ========== CAROUSEL SECTION ========== -->
-<section id="portfolio" name="portfolio">
-    <div class="container">
-        <div class="row centered">
-            <h2>SOME PROJECTS</h2>
-            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-            <div class="col-lg-6 col-lg-offset-3">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active centered">
-                            <p>Mobile word game designed with an attractive UI and intuitive gameplay.</p>
-                            <a href="https://play.google.com/store/apps/details?id=com.nomoreanalog.worldofwords" target="_blank">
-                                <img class="img-responsive" src="assets/img/c1.png" alt="Mobile Game">
-                            </a>
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" name="contact">
+        <div class="container">
+            <div class="row">
+                <h2>CONTACT US</h2>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p>Tell us about a website or mobile app you would like us to build for you.</p>
+                    <form class="p-30 bg-gray rounded" action="https://formspree.io/contact@nomoreanalog.com"
+                        method="POST">
+                        <div id="email-alert" class="alert alert-success hide">We received your message and will contact
+                            you soon.</div>
+                        <div class="row">
+                            <div class="form-group col-12 col-md-6">
+                                <input class="form-control form-control-lg" type="text" name="name"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input class="form-control form-control-lg" type="email" name="email"
+                                    placeholder="Your Email Address" required>
+                            </div>
                         </div>
-                        <div class="item centered">
-                            <p>Website featuring SVG visualizations powered by a web-based admin console.</p>
-                            <a href="https://uncharted-d3.herokuapp.com" target="_blank">
-                                <img class="img-responsive" src="assets/img/c2.png" alt="D3 Website">
-                            </a>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" rows="4"
+                                placeholder="Details about your website or mobile app" name="message"
+                                required></textarea>
                         </div>
-                        <div class="item centered">
-                            <p>Mobile responsive website developed for our partner Backroad Technologies.</p>
-                            <a href="http://www.backroadtech.com" target="_blank">
-                                <img class="img-responsive" src="assets/img/c3.png" alt="D3 Website">
-                            </a>
+                        <input type="hidden" name="_next"
+                            value="http://www.nomoreanalog.com/?email-sent=yes/#contact" />
+                        <input type="hidden" name="_subject" value="NoMoreAnalog Customer Inquiry" />
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-warning">BUILD MY WEBSITE OR APP</button>
                         </div>
-                    </div>
+                    </form>
                     <br>
-                    <br>
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                </div>
-            </div><!-- col-lg-8 -->
-        </div><!-- row -->
-    </div><!-- container -->
-</section>
-
-<!-- ========== ABOUT SECTION ========== -->
-<section id="about" name="about">
-    <div class="container">
-        <div class="row">
-            <h2>ABOUT US</h2>
-            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-            <!-- INTRO INFORMATION-->
-            <div class="col-lg-6 col-lg-offset-3">
-                <p>A software company focused on providing elegant solutions. We are proud to have website, design, mobile and SEO experience.</p>
-                <p>Our passion is working closely with customers to quickly determine and fulfill their needs. Modern features will stand out in the software we produce for you.</p>
-                <p>We are available to custom build your next mobile application, web-based software or website design.</p>
-                <p>
-                    <a href="#contact" data-scrollto="contact">
-                        <button type="button" class="btn btn-warning">BUILD MY WEBSITE OR APP</button>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div><!-- /container -->
-</section>
-
-<!-- ========== CONTACT SECTION ========== -->
-<section id="contact" name="contact">
-    <div class="container">
-        <div class="row">
-            <h2>CONTACT US</h2>
-            <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-            <div class="col-lg-6 col-lg-offset-3">
-                <p>Tell us about a website or mobile app you would like us to build for you.</p>
-                <form class="p-30 bg-gray rounded" action="https://formspree.io/contact@nomoreanalog.com" method="POST">
-                    <div id="email-alert" class="alert alert-success hide">We received your message and will contact you soon.</div>
-                    <div class="row">
-                        <div class="form-group col-12 col-md-6">
-                            <input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group col-12 col-md-6">
-                            <input class="form-control form-control-lg" type="email" name="email" placeholder="Your Email Address" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control form-control-lg" rows="4" placeholder="Details about your website or mobile app" name="message" required></textarea>
-                    </div>
-                    <input type="hidden" name="_next" value="http://www.nomoreanalog.com/?email-sent=yes/#contact"/>
-                    <input type="hidden" name="_subject" value="NoMoreAnalog Customer Inquiry"/>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-warning">BUILD MY WEBSITE OR APP</button>
-                    </div>
-                </form>
-                <br>
-                <p><a href="mailto:contact@nomoreanalog.com?Subject=NoMoreAnalog%20Customer%20Inquiry" target="_top">contact@nomoreanalog.com</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========== FOOTER ========== -->
-<footer class="footer" id="footer">
-    <div class="container">
-        <div class="row gap-y align-items-center">
-
-            <div class="col-12 col-md-3">
-                <p class="text-center text-lg-left">
-                    <a href="#home"><img src="assets/img/logo.svg" alt="logo"></a>
-                </p>
-            </div>
-
-            <div class="col-12 col-md-6">
-                <ul class="nav">
-                    <li class="nav-item hidden-sm hidden-xs"><a class="nav-link" data-scroll href="#home" data-scrollto="home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" data-scroll href="#about" data-scrollto="about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" data-scroll href="#portfolio" data-scrollto="portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" data-scroll href="#contact" data-scrollto="contact">Contact</a></li>
-                    <li class="nav-item hidden-xs"><a class="nav-link" href="sitemap.html">Site Map</a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-3">
-                <div class="social text-center">
-                    <a target="_blank" href="https://fb.me/nomoreanalogtech"><i class="icon-facebook-sign"></i></a>
-                    <a target="_blank" href="https://play.google.com/store/apps/developer?id=NoMoreAnalog"><i class="icon-mobile-phone"></i></a>
+                    <p><a href="mailto:contact@nomoreanalog.com?Subject=NoMoreAnalog%20Customer%20Inquiry"
+                            target="_top">contact@nomoreanalog.com</a></p>
                 </div>
             </div>
-
         </div>
-    </div>
-</footer>
+    </section>
 
-<!-- JavaScript
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row gap-y align-items-center">
+
+                <div class="col-12 col-md-3">
+                    <p class="text-center text-lg-left">
+                        <a href="#home"><img src="assets/img/logo.svg" alt="logo"></a>
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <ul class="nav">
+                        <li class="nav-item hidden-sm hidden-xs"><a class="nav-link" data-scroll href="#home"
+                                data-scrollto="home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" data-scroll href="#about"
+                                data-scrollto="about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" data-scroll href="#portfolio"
+                                data-scrollto="portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" data-scroll href="#contact"
+                                data-scrollto="contact">Contact</a></li>
+                        <li class="nav-item hidden-xs"><a class="nav-link" href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="social text-center">
+                        <a target="_blank" href="https://fb.me/nomoreanalogtech"><i class="icon-facebook-sign"></i></a>
+                        <a target="_blank" href="https://play.google.com/store/apps/developer?id=NoMoreAnalog"><i
+                                class="icon-mobile-phone"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.mobile.custom.min.js"></script>
-<script src="assets/js/modernizr.custom.js"></script>
-<script src="assets/js/classie.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/smooth-scroll.min.js"></script>
-<script src="assets/js/main.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.mobile.custom.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="assets/js/ga.js"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="assets/js/ga.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments)
-    };
-    gtag('js', new Date());
-    gtag('config', 'UA-66485739-8');
-</script>
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+        gtag('config', 'UA-66485739-8');
+    </script>
 
 </body>
+
 </html>
