@@ -420,3 +420,22 @@ section img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* Ensure carousel images have consistent dimensions */
+#carousel-example-generic .carousel-inner .item {
+    height: 350px; /* Fixed height for each slide */
+}
+
+#carousel-example-generic .carousel-inner a {
+    display: block;
+    height: 250px; /* Fixed height for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel-example-generic .carousel-inner img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Preserves aspect ratio */
+}
