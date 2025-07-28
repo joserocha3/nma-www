@@ -428,7 +428,7 @@ section img {
 
 #carousel-example-generic .carousel-inner a {
     display: block;
-    height: 250px; /* Fixed height for the image container */
+    height: 150px; /* Fixed height for the image container */
     display: flex;
     align-items: center;
     justify-content: center;
